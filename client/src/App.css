@@ -1,0 +1,45 @@
+.App {
+  text-align: left;
+  margin-bottom: 10px;
+}
+body {
+  background-color: #1a1a1a
+}
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 250ms ease-in;
+}
+
+.listgroupitem {
+  margin: 0px 0px 10px 0px;
+  padding: 0px;
+  background-color: transparent;
+}
+
+.link {
+  color: #FFF;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.25s;
+}
+.link:hover {
+   color: gray;
+   text-decoration: none;
+}
