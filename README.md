@@ -32,7 +32,7 @@ Video on Demand/Streaming app
  You can populate the db either directly through mongo, or you could type ```npm run server``` to start the server, at which point you could use a service like Postman and POST to localhost:5000/api/series. If posting via Postman, POST each JSON video object one at a time.
  
   5. Now that the database is populated and the corresponding videos are inside assets/ stop your server (if you had it running). 
-  cd to the client/ folder and type ```npm init```
+  cd to the client/ folder and type ```npm install```
   6. After the dependencies are installed, cd back to the kflix root and type 
   ```npm run dev```
   
