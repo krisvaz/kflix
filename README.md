@@ -4,7 +4,7 @@ Video on Demand/Streaming app
 ## Steps
   1. After cloning the repository, in your terminal (opened in the kflix directory) type:
   
-     ```npm init```
+     ```npm install```
       
   2. You'll want to setup your mongoDB with a database for storing the video metadata. You can use either a local or cloud based setup. 
   3. Once your mongodb is setup, grab the uri path to your database and paste it in config/keys.js where the mongoURI attribute is 
